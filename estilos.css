@@ -1,0 +1,815 @@
+/*INICIO*/
+
+body{
+	max-width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -5px;
+	font-size: 17px;
+	background-color: white;
+}
+
+header{
+	width: 100%;
+	background-color: white;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+header ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: purple;
+}
+
+header ul li a:hover{
+	color: deeppink;
+}
+
+header a:hover{
+	padding: 0px 0px 15px 0px;
+	font-weight: bold;
+}
+
+.cabecera{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+}
+
+.inicio{
+	float: left;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: -40px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.nombre{
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 40px;
+	color: black;
+	font-family: roboto;
+}
+
+.login{
+	float: right;
+	margin-top: 30px;
+	font-size: 20px;	
+}
+
+.login li{
+	margin: 15px;
+}
+
+.menucabecera{
+	clear: both;
+	font-size: 20px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.menucabecera a{
+	text-decoration: none;
+	color: purple;
+}
+
+.menucabecera ul{
+	padding: 0px;
+	margin-left: 30px;
+}
+
+.menucabecera li{
+  	margin-left: 50px;
+}
+
+.menucabecera a:hover{
+	color: hotpink;
+	border-bottom: 4px solid hotpink;
+}
+
+.container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	background-color: white;
+	padding: 30px 30px 30px 30px;
+}
+
+.menu{
+	border: 3px solid white;
+	background-color: white;
+	font-size: 18px;
+}
+
+.menu ul{
+	padding: 0px;
+}
+
+.menu ul li a{
+	color: purple;
+}
+
+.menu li{
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+}
+
+.menu a{
+	text-decoration: none;
+}
+
+.menu a:hover{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.articulo{
+	text-decoration: none;
+	color: deeppink;
+}
+
+.articulo:hover{
+	color: hotpink;
+	padding: 5px;
+	transition: 0.5s;
+}
+
+.destacada{
+	width: 960px;
+}
+
+.destacada:hover{
+	opacity: 0.6;
+	padding: 5px;
+	transition: 0.5s;
+}
+
+.secundarias{
+	background-color: white;
+	height: 850px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-left: 25px;
+}
+
+.destacada_1{
+	width: 190px;
+	margin-right: 10px;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	background-color: white;
+}
+
+.destacada_1:hover{
+	background: pink;
+	padding: 15px;
+	transition: padding 0.5s;
+
+}
+
+.destacada_2{
+	width: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	float: left;
+	background-color: white;
+}
+
+#colecciones{
+	text-decoration: none;
+	color: purple;
+}
+
+#colecciones:hover{
+	background: pink;
+	color: darkmagenta;
+}
+
+.destacada_3{
+	width: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	float: left;
+	background-color: white;
+}
+
+.destacada_4{
+	width: 190px;
+	margin-left: 10px;
+	padding: 10px;
+	float: left;
+	background-color: white;
+}
+
+.pie{
+   	background-color: purple;
+   	width: 100%;
+   	vertical-align: middle;
+   	text-align: center;
+   	margin-top: 10px;
+   	display: inline-block;
+   	margin-bottom: -15px;
+   	height: 80px;
+}
+
+.pie li{
+   float: left;	
+   margin: 15px;
+}
+
+.pie ul li{
+	list-style: none;
+}
+
+.pie ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.columna1{
+	float: left;
+}
+
+.columna2{
+	float: right;
+}
+
+h1{
+	margin-left: 10px;
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+
+	.nombre{
+	font-size: 18px;
+	}
+
+	.menucabecera{
+	width: 85%;
+    text-align: center;
+	}
+
+	.menucabecera a:hover{
+	color: pink;
+	border: none;
+	}
+
+	.icono li a{
+	display: inline;
+	float: right;
+	}
+
+	.buscador{
+	display: inline-block;
+	background-color: pink;
+	}
+
+	.menu{
+	color: white;
+	font-size: 0;
+	max-width: 0;
+	max-height: 0;
+	}
+
+	.container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	background-color: white;
+	padding: 15px 10px 15px 11px;
+	}
+
+	h1{
+	font-size: 20px;
+	text-align: center;
+	}
+
+	.secundarias{
+	background-color: pink;
+	height: 2300px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-left: 25px;
+	}
+
+	.destacada{
+	width: 0%;
+	}
+
+	.destacada_1{
+	width: 85%;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 20px;
+	}
+
+	.destacada_2{
+	width: 85%;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 30px;
+	margin-left: -1px;
+	}
+
+	#colecciones{
+	text-decoration: none;
+	color: black;
+	border: 3px solid purple;
+	font-size: 20px;
+	}
+
+	.destacada_3{
+	width: 85%;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 20px;
+	margin-left: -1px;
+	}
+
+	.destacada_4{
+	width: 85%;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 20px;
+	margin-left: -1px;
+	}
+
+	.pie{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	}
+
+    .pie li a{
+    margin: 10px;
+    width: 100%
+    }
+
+    .columna2 {
+    max-width: 100%;
+    }
+
+}
+
+/*COLECCIONES*/
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container > div {
+  font-size: 15px;
+  border: 1px solid gray;
+  padding: 30px;
+}
+
+#mujer{
+	float: left;
+}
+
+#cocina{
+	float: left;
+}
+
+#ciencia{
+	float: left;
+}
+
+#literatura{
+	float: left;
+}
+
+#revistas{
+	float: left;
+}
+
+ul.breadcrumb{
+	padding: 10px;
+	list-style: none;
+	border: 1px solid tan;
+	padding-left: 30px;
+}
+
+ul.breadcrumb li{
+	display: inline;
+	font-size: 15px;
+}
+
+ul.breadcrumb li+li:before {
+  color: black;
+  content: "/ ";
+}
+
+ul.breadcrumb li a {
+  color: purple;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+
+		body{
+	width: 100%;
+	}
+
+	.login{
+	float: left;
+	font-size: 16px;
+	}
+
+	.container{
+	width: 100%;
+	padding: 0;
+	margin: 5px;
+	width: auto;
+	}
+
+	#mujer{
+	float: left;
+	height: 60px;
+	margin-left: -10px;
+	}
+
+	#cocina{
+	float: left;
+	height: 60px;
+	margin-left: -10px;
+	}
+
+	#ciencia{
+	float: left;
+	height: 60px;
+	margin-left: -10px;
+	}
+
+	#literatura{
+	float: left;
+	height: 60px;
+	margin-left: -10px;
+	}
+
+	#revistas{
+	float: left;
+	height: 60px;
+	margin-left: -10px;
+	}
+
+}
+
+/* FICHA LIBRO */
+
+.portada{
+	float: left;
+}
+
+.libro{
+	float: left;
+	width: 600px;
+	margin-bottom: 40px;
+}
+
+.libro ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.social{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.redes{
+	text-align: center;
+}
+
+.redes ul li{
+	display: inline-block;
+}
+
+#facebook{
+	width: 40px;
+	height: 50px;
+	background: url(images/sprite_icons.png) 0px -96px;
+}
+
+#facebook:hover{
+	width: 40px;
+	height: 45px;
+	background: url(images/sprite_icons.png) 0px 44px;
+}
+
+#twitter{
+	width: 50px;
+	height: 50px;
+	background: url(images/sprite_icons.png) -44px -96px;
+}
+
+#twitter:hover{
+	width: 50px;
+	height: 45px;
+	background: url(images/sprite_icons.png) -44px 44px;
+}
+
+#pinterest{
+	width: 50px;
+	height: 50px;
+	background: url(images/sprite_icons.png) -98px -96px;
+}
+
+#pinterest:hover{
+	width: 50px;
+	height: 45px;
+	background: url(images/sprite_icons.png) -98px 44px;
+}
+
+#instagram{
+	width: 50px;
+	height: 50px;
+	background: url(images/sprite_icons.png) -150px -96px;
+}
+
+#instagram:hover{
+	width: 50px;
+	height: 45px;
+	background: url(images/sprite_icons.png) -150px 44px;
+}
+
+.reserva{
+	background-color: wheat;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	width: 500px;
+}
+
+.reserva ul li{
+	margin: 10px;
+	font-size: 18px;
+	list-style: none;
+}
+
+#button{
+	font-size: 15px;
+	background-color: white;
+	color: black;
+}
+
+#reset{
+	font-size: 15px;
+	background-color: white;
+	color: black;
+}
+
+input{
+	padding: 5px;
+	margin: 2px;
+	border: 1px solid coral;
+	width: 85%;
+}
+
+h2{
+	margin-left: 0px;
+	font-size: 25px;
+	padding-top: 0px;
+}
+
+.aviso{
+	font-size: 15px;
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+
+	.portada{
+	margin-left: 10px;
+	width: 95%;
+	}
+
+	.libro{
+	width: 100%;
+	}
+
+	.reserva{
+	width: 85%;
+	}
+
+}
+
+/*INFORMACIÓN*/
+
+.informacion{
+	display: flex;
+	padding: 30px;
+}
+
+.descripcion{
+	margin-right: 40px;
+	margin-top: -20px;
+}
+
+.horario{
+	font-size: 14px;
+}
+
+caption{
+	color: white;
+	background-color: tan;
+	padding: 8px;
+}
+
+table{
+	text-align: left;
+	width: 450px;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-bottom: 2px solid gray;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+
+th{
+	text-align: right;
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+.contacto{
+	font-size: 17px;
+}
+
+.contacto ul li{
+	list-style: none;
+	font-style: italic;
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+
+	.informacion{
+	width: 100%;
+	font-size: 15px;
+	height: 650px;
+	}
+
+	.descripcion{
+	width: 100%;
+	}
+
+	.horario{
+	width: 10%;
+	margin-top: 500px;
+	font-size: 12px;
+	}
+
+	table{
+	}
+
+	.pie{
+	background-color: red;
+	width: 100%;
+	height: 330px;
+	margin: auto;
+	}
+
+	.pie ul li a{
+	color: white;
+	margin-left: -40px;
+	text-decoration: none;
+	}
+
+	.pie ul li{
+	width: 100%;
+	}
+
+	ul.breadcrumb{
+	color: white;
+	font-size: 0;
+	max-width: 0;
+	max-height: 0;
+	}
+
+	ul.breadcrumb li{
+	font-size: 0;
+	max-width: 0;
+	max-height: 0;
+	}
+
+	ul.breadcrumb li+li:before {
+	font-size: 0;
+	max-width: 0;
+	max-height: 0;
+	}
+
+	ul.breadcrumb li a {
+	font-size: 0;
+	max-width: 0;
+	max-height: 0;
+	}
+
+}
+
+/*TRÁMITES*/
+
+#devoluciones{
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#renovar{
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#extender{
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+/*HAZTE SOCIO*/
+
+.socio{
+	background-color: pink;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	width: 500px;
+}
+
+.socio ul li{
+	margin: 10px;
+	font-size: 18px;
+	list-style: none;
+}
+
+/*CONTÁCTANOS*/
+
+.contactanos{
+	font-size: 25px;
+}
+
+.contactanos ul li{
+	list-style: none;
+	font-style: italic;
+}
+
+.escribenos{
+	background-color: pink;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	width: 500px;
+}
+
+.escribenos ul li{
+	margin: 10px;
+	font-size: 18px;
+	list-style: none;
+}
+
+.contenedorlogin{
+	text-align: center;
+	background-color: wheat;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	width: 300px;
+}

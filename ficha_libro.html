@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Biblioteca de la Red de Bibliotecas Públicas</title>
+<meta name="FICHA LIBRO" content="Ficha del libro y formulario de contacto." />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="estilos.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<div class="cabecera">
+			<div class="inicio">
+				<ul>
+					<li><a href="inicio.html"><img src="images/logo.svg" class="logo" alt="logo"></a></li>
+					<li><div class="nombre">BIBLIOTECA UOC</div></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="login">
+					<li><a href="login.html">Login</a></li>
+					<!--<li><img src="images/icon_search.svg" style="width:18px;" alt="search"></li>
+					<li><a href="" style="margin-left: -25px;">Buscador</a></li>-->
+				</ul>
+			</div>
+			<div class="menucabecera">
+				<ul>
+					<li><a href="informacion.html">La biblioteca</a></li>
+					<li><a href="tramites.html">Trámites y Servicios</a></li>
+					<li><a href="carnet.html">Hazte el carnet</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+		<div class="container">
+
+			<div class="menu">
+
+				<!--<ul>
+					<li><a href="colecciones.html">Colecciones</a></li>
+					<li><a href="">Catálogo</a></li>
+					<li><a href="">Agenda</a></li>
+					<li><a href="">Salas de estudio</a></li>
+					<li><a href="">Área infantil</a></li>
+					<li><a href="">Recursos digitales</a></li>
+				</ul>-->
+
+			</div>
+
+			<ul class="breadcrumb">
+				<li><a href="inicio.html">Inicio</a></li>
+				<li>Ficha libro</li>
+			</ul>
+
+				<h1>El ala izquierda</h1>
+
+					<img src="images/portada.jpg" class="portada" alt="portada">
+
+					<div class="libro">
+
+						<ul>
+							<li><h2>Mircea Cărtărescu</h2></li>
+							<li>EDITORIAL: Impedimenta</li>
+							<li>ISBN: 9788417115869</li>
+							<li>FECHA DE PUBLICACIÓN: 3/11/18</li>
+
+							<li><h3>Sinopsis</h3></li>
+
+							<li>El ala izquierda es el volumen que abre «Cegador», la monumental trilogía en forma de mariposa considerada de manera unánime la obra maestra del rumano Mircea Cartarescu. Visceral ejercicio de autoexploración literaria sobre la naturaleza femenina y la madre, viaje ficticio a través de la geografía de una ciudad alucinada, una Bucarest que se convierte en el escenario de la historia universal, El ala izquierda se ha convertido en uno de los éxitos más sólidos de la literatura europea actual, y en un best seller literario desde el mismo momento de su publicación. Circos errantes, agentes de la Securitate, gitanos adictos a la flor de la amapola, una oscura secta, la de los Conocedores, que controlan todo lo visible y lo invisible, un ejército de muertos vivientes y una corte de ángeles bizantinos enviados para combatirlos, un iluminado albino que burla a la muerte, jazz underground en una Nova Orleans soñada, la irrupción del Comunismo en Rumanía. </li>
+
+						</ul>
+
+					</div>
+
+							<div class="redes">
+
+								<ul>
+									<li> <a href="https://es-es.facebook.com/UOC.universitat/"><div id="facebook"></div></a></li>
+									<li> <a href="https://twitter.com/uocuniversidad"><div id="twitter"></div></a></li>
+									<li> <a href="https://www.pinterest.es/uocuniversitat/"><div id="pinterest"></div></a></li>
+									<li> <a href="https://www.instagram.com/uocuniversitat"><div id="instagram"></div></a></li>
+								</ul>
+
+							</div>
+
+					<form class="reserva">
+
+						<ul>
+
+							<li><h2>Formulario de reserva online</h2></li>
+							<li>
+								<input type="text" name="nombre" id="nombre" placeholder="Nombre..." required></li>
+							<li>
+								<input type="text" name="apellidos" id="apellidos" placeholder="Apellidos..." required></li>
+							<li>
+								<input type="text" name="DNI" id="DNI" placeholder="DNI..." required></li>
+			      			<li>
+			      				<input type="date" name="nacimiento" step="1" min="1900-01-01" max="2018-12-22" value="2018-12-22" required/>
+			      			</li>
+			   				<li><span class="aviso">¿Quieres que te avisemos cuando esté disponible?</span>
+			   					<select name="Área" required>
+			   					<option value="">Sí</option>
+			   					<option>No</option>
+			   					</select>
+			   				</li>
+			   				<li><span class="aviso">Quiero recogerlo en la siguiente biblioteca:</span>
+			   					<select name="biblioteca" required>
+			   					<option value="">Biblioteca Pública Francisco Villaespesa</option>
+			   					<option>Biblioteca Pública Los Ángeles</option>
+			   					<option>Biblioteca UAL</option>
+			   					</select>
+			   				</li>
+			   				<li>
+			         			<button type="submit" value="Hacer la reserva" id="button">Hacer la reserva</button>
+
+			         			<button type="reset" value="Reset" id="reset">Reset</button>
+
+			      			</li>
+
+						</ul>
+
+					</form>
+
+		</div>
+
+	</main>
+
+	<footer>
+
+		<div class="pie">
+
+			<div class="columna1">
+				<ul>
+					<li><a href="">Red de Bibliotecas</a></li>
+					<li><a href="">Contacto</a></li>
+					<li><a href="">Trámites y servicios</a></li>
+				</ul>			
+			</div>
+
+			<div class="columna2">
+				<ul>
+					<li><a href="">Aviso Legal</a></li>
+					<li><a href="">Accesibilidad</a></li>
+					<li><a href="">Protección de datos</a></li>
+				</ul>			
+			</div>
+
+		</div>
+
+	</footer>
+ 
+</body>
+
+</html>
